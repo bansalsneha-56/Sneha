@@ -48,7 +48,7 @@ ul li.checked {
 
 ul li.checked::before {
   content: '';
-  position: absolute;
+  position: relative;
   border-color: #fff;
   border-style: solid;
   border-width: 0 2px 2px 0;
@@ -60,7 +60,7 @@ ul li.checked::before {
 }
 
 .close {
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
   padding: 12px 16px 12px 16px;
